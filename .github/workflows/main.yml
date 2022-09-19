@@ -17,7 +17,7 @@ jobs:
           target_repository: huiwengoh/test_ci
           update: true
       - name: Commit & push changes
-        uses: action/commit@push
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
           message: ‘CI - add/update Colab badges’
           add: ‘*.ipynb’
