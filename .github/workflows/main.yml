@@ -18,6 +18,3 @@ jobs:
           update: true
       - name: Commit & push changes
         uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          message: ‘CI - add/update Colab badges’
-          add: ‘*.ipynb’
