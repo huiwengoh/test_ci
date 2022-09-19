@@ -14,7 +14,7 @@ jobs:
         with:
           check: “all”
           target_branch: master
-          target_repository: cleanlab/examples
+          target_repository: huiwengoh/test_ci
           update: true
       - name: Commit & push changes
         uses: action/commit@push
