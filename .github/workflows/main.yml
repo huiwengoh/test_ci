@@ -12,7 +12,7 @@ jobs:
         id: badges
         uses: trsvchn/colab-badge-action@v4
         with:
-          check: “all”
+          check: all
           target_branch: master
           target_repository: huiwengoh/test_ci
           update: true
