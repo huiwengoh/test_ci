@@ -1,9 +1,6 @@
-#!/usr/bin/env python
-
 """
 Lint Jupyter notebooks being checked in to this repo.
-Currently, this "linter" only checks one property, that the notebook's output
-cells are empty, to avoid bloating the repository size.
+This "linter" check if the kernel used in the notebooks are correct.
 """
 
 
