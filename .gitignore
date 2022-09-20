@@ -129,3 +129,5 @@ dmypy.json
 .pyre/
 
 .DS_Store
+
+.ci/test_ci_notebook.ipynb
