@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 """
 Lint Jupyter notebooks being checked in to this repo.
 This "linter" check if the kernel used in the notebooks are correct.
