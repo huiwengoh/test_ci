@@ -1,7 +1,8 @@
 name: colab
 on: 
   push:
-  pull request:
+    branches:
+      - master
 jobs:
   badges:
     name: Colab Badge
