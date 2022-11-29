@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: cleanlab/nblint-action@main
+      - uses: cleanlab/nblint-action@v1
         with:
           check_correct_kernel: true
           check_notebook_badge: true
